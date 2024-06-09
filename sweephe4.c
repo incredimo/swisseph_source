@@ -66,6 +66,7 @@ a fast precomputed ephemeris
 # define EPBS	(2 * NDB)	/* buffer size is 20 days */
 # define EP_MIN_IX	2	/* load buffer when index below this */
 # define EP_MAX_IX	(EPBS - 4)	/* load buffer when index above this */
+char *p;
 
 FILE *ephfp = NULL;
 const int qod[EP_NP] = {5,5,5,5,5,3,3,3,3,3,3,5,3,3,3};
